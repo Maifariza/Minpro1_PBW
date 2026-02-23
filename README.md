@@ -18,6 +18,8 @@ Project ini adalah website portfolio sederhana yang dibuat menggunakan HTML dan 
 
 Website ini dibagi menjadi beberapa bagian utama, yaitu Home, About Me, dan Certificates. Tampilan dibuat rapi dan responsif dengan bantuan Bootstrap 5 agar nyaman dilihat di berbagai ukuran layar. Pada bagian skills, saya menggunakan Vue JS untuk menampilkan data dengan lebih terstruktur.
 
+---
+
 ## Struktur Project
 
 <img width="235" height="275" alt="Screenshot 2026-02-23 073806" src="https://github.com/user-attachments/assets/caec50cf-7068-4b32-acbd-a1a0f8e561bf" />
@@ -45,7 +47,7 @@ Pada bagian ini juga terdapat dua tombol navigasi yang mengarah ke section About
 <img width="1895" height="948" alt="Screenshot 2026-02-23 074417" src="https://github.com/user-attachments/assets/c1754919-8526-423b-b539-19167f9dc56d" />
 
 
-### _ ★彡 About Me Section_
+### _★彡 About Me Section_
 
 Section About Me berisi informasi lebih lengkap tentang diri saya. Bagian ini dibagi menjadi tiga bagian utama, yaitu Deskripsi Diri, Skills, dan Pengalaman.
 
@@ -67,7 +69,7 @@ Section About Me berisi informasi lebih lengkap tentang diri saya. Bagian ini di
   Bagian pengalaman berisi beberapa kegiatan dan pengalaman yang pernah saya lakukan, seperti mengikuti workshop, mengerjakan mini project, dan kegiatan kampus.
 
 
-### _ ★彡 Certificates Section_
+### _★彡 Certificates Section_
 
 Section Certificates menampilkan daftar sertifikat yang pernah saya peroleh. Sertifikat ditampilkan dalam bentuk card dan disusun menggunakan sistem grid Bootstrap agar rapi dan responsif.
 
@@ -80,7 +82,7 @@ Setiap card berisi gambar sertifikat, judul kegiatan, tahun, serta tombol “Lih
 
 <img width="364" height="407" alt="image" src="https://github.com/user-attachments/assets/a302b6a0-b1f8-4895-a205-ef3a2ef302dd" />
 
-
+---
 
 ### Teknologi yang Digunakan
 
