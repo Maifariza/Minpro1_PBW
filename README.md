@@ -12,7 +12,7 @@
 
 Project ini adalah website portfolio sederhana yang dibuat menggunakan HTML dan CSS. Website ini berisi informasi tentang diri saya, seperti perkenalan singkat, deskripsi diri, daftar kemampuan (skills), pengalaman, dan sertifikat yang pernah saya dapatkan.
 
-Website ini dibagi menjadi beberapa bagian utama, yaitu Home, About Me, dan Certificates. Tampilan dibuat rapi dan responsif dengan bantuan Bootstrap 5 agar nyaman dilihat di berbagai ukuran layar. Pada bagian skills, saya menggunakan Vue JS untuk menampilkan data dengan lebih terstruktur.
+Website ini dibagi menjadi beberapa bagian utama, yaitu Home, About Me, dan Certificates. Saya membuat tampilan website ini rapi dan responsif dengan bantuan Bootstrap 5 agar nyaman dilihat di berbagai ukuran layar. Pada bagian skills, saya menggunakan Vue JS untuk menampilkan data dengan lebih terstruktur.
 
 ---
 
@@ -36,11 +36,16 @@ Project ini terdiri dari beberapa file dan folder yang memiliki fungsi masing-ma
 
 ---
 
+## Tampilan Website (Full)
+
+
+---
+
 ## Tampilan Setiap Section
 
 ### _★彡 Home (Hero Section)_
 
-Bagian Home merupakan tampilan pertama yang dilihat saat website dibuka. Di bagian ini terdapat sapaan singkat, nama lengkap, serta peran sebagai Web Developer. Selain itu, terdapat deskripsi singkat mengenai minat di bidang Web Development.
+Bagian Home merupakan tampilan pertama yang dilihat saat program di running dan website dibuka. Di bagian ini terdapat sapaan singkat, nama lengkap, serta peran sebagai Web Developer. Selain itu, terdapat deskripsi singkat mengenai minat di bidang Web Development.
 
 Pada bagian ini juga terdapat dua tombol navigasi yang mengarah ke section About Me dan Certificates. Layout disusun menggunakan sistem grid dari Bootstrap agar tampilan tetap rapi dan seimbang antara teks dan gambar. Background dibuat menggunakan warna dan gradient agar terlihat lebih menarik.
 
@@ -50,7 +55,7 @@ Pada bagian ini juga terdapat dua tombol navigasi yang mengarah ke section About
 
 ### _★彡 About Me Section_
 
-Section About Me berisi informasi lebih lengkap tentang diri saya. Bagian ini dibagi menjadi tiga bagian utama, yaitu Deskripsi Diri, Skills, dan Pengalaman.
+Section About Me berisi informasi lebih lengkap tentang diri saya. Bagian ini dibagi menjadi tiga bagian utama, yaitu Deskripsi Diri, Skills, dan Pengalaman. Selain itu, pada section ini saya juga menekankan keseimbangan antara informasi personal dan kemampuan teknis. Jadi tidak hanya menjelaskan siapa saya, tetapi juga menunjukkan apa yang bisa saya lakukan dan pengalaman apa saja yang sudah saya jalani.
 
 <img width="1873" height="949" alt="Screenshot 2026-02-23 074508" src="https://github.com/user-attachments/assets/af0d22fd-7de8-47e1-9ab8-aa77fa0ae7f5" />
 
@@ -66,15 +71,11 @@ Setiap card berisi gambar sertifikat, judul kegiatan, tahun, serta tombol “Lih
 <img width="1874" height="936" alt="image" src="https://github.com/user-attachments/assets/4567ad52-f897-4b0d-a919-d8d1c96c3fff" />
 
 
-**Klik Lihat**
-
-<img width="364" height="407" alt="image" src="https://github.com/user-attachments/assets/a302b6a0-b1f8-4895-a205-ef3a2ef302dd" />
-
 ---
 
 ## Penjelasan Code Setiap Section
 
-**📌 Kode Section Home (Hero Section)**
+### **📌 Kode Section Home (Hero Section)**
 
 
 
@@ -82,9 +83,9 @@ Setiap card berisi gambar sertifikat, judul kegiatan, tahun, serta tombol “Lih
 
 <Penjelasan:>
 
-Secara umum, pada section Home saya membuat struktur utama menggunakan elemen <section> yang dibagi menjadi dua kolom menggunakan sistem grid Bootstrap. Kolom pertama berisi teks perkenalan seperti nama, role, dan deskripsi singkat. Kolom kedua berisi gambar profil dengan tambahan elemen dekoratif.
+Secara umum, pada section Home saya membuat struktur utama menggunakan elemen <section yang dibagi menjadi dua kolom menggunakan sistem grid Bootstrap. Kolom pertama berisi teks perkenalan seperti nama, role, dan deskripsi singkat. Kolom kedua berisi gambar profil dengan tambahan elemen dekoratif.
 
-Kode pada bagian ini berfungsi untuk menampilkan identitas saya sebagai pembuka website. Saya menggunakan heading untuk struktur teks, button untuk navigasi ke section lain, dan grid Bootstrap untuk memastikan tampilannya tetap responsif di berbagai ukuran layar.
+Kode di section Home ini berfungsi untuk menampilkan identitas saya sebagai pembuka website. Saya menggunakan heading untuk struktur teks, button untuk navigasi ke section lain, dan grid Bootstrap untuk memastikan tampilannya tetap responsif di berbagai ukuran layar.
 
 - Kode Struktur Section 
 
@@ -102,7 +103,7 @@ Kode pada bagian ini berfungsi untuk menampilkan identitas saya sebagai pembuka 
 
   > <img width="490" height="32" alt="image" src="https://github.com/user-attachments/assets/7c0000ac-e285-48e0-af52-48de68c3d2ff" />
   >
-  > Saya menggunakan button class bt dari Bootstrap untuk styling dasar, lalu saya kombinasikan dengan CSS sendiri agar warnanya sesuai tema pink yang saya gunakan.
+  > Saya menggunakan button class btn dari Bootstrap untuk styling dasar, lalu saya kombinasikan dengan CSS sendiri agar warnanya sesuai tema pink yang saya gunakan.
 
 - Kode Button 
 
@@ -115,7 +116,7 @@ Kode pada bagian ini berfungsi untuk menampilkan identitas saya sebagai pembuka 
 
 ---
 
-**📌 Kode Section About**
+### **📌 Kode Section About**
 
 <img width="888" height="201" alt="image" src="https://github.com/user-attachments/assets/4b066c5a-c924-4e11-9325-80eba0846e5e" />
 
@@ -123,7 +124,7 @@ Kode pada bagian ini berfungsi untuk menampilkan identitas saya sebagai pembuka 
 
 Pada section About, struktur kodenya dibagi menjadi tiga bagian utama dalam satu baris, yaitu Deskripsi, Skills, dan Pengalaman. Saya menggunakan container dan row dari Bootstrap untuk mengatur layout agar rapi dan responsif.
 
-Setiap bagian dibungkus dalam card supaya tampilannya terstruktur dan konsisten. Untuk bagian Skills, saya menggunakan Vue JS agar data skill bisa ditampilkan secara dinamis melalui perulangan.
+Setiap bagian dibungkus dalam card supaya tampilannya terstruktur dan konsisten. Untuk bagian Skills, saya menggunakan Vue JS agar data skill ini bisa ditampilkan secara dinamis melalui perulangan.
 
 Kode di section ini berfungsi untuk menampilkan informasi yang lebih detail tentang diri saya, baik dari sisi kepribadian, kemampuan teknis, maupun pengalaman yang pernah saya lakukan.
 
@@ -131,7 +132,7 @@ Kode di section ini berfungsi untuk menampilkan informasi yang lebih detail tent
 
   > <img width="268" height="45" alt="image" src="https://github.com/user-attachments/assets/f10c530e-2d20-405c-811f-01b6866d080a" />
   >
-  > Pada bagian ini, saya membuat section About menggunakan <section id="about". Saya memberikan id="about" supaya bisa terhubung langsung dengan tombol “About Me” di Hero dan juga dari navbar.
+  > Pada bagian ini, saya membuat section About menggunakan <section id="about". Saya memberikan id="about" supaya bisa terhubung langsung dengan tombol “About Me” di tampilan Home (Hero) dan juga dari navbar.
   > Class py-5 berasal dari Bootstrap yang berfungsi memberikan padding atas dan bawah agar section ini tidak terlalu rapat dengan section sebelumnya.
   > Saya juga menggunakan container agar isi kontennya tetap berada dalam batas lebar yang rapi dan tidak terlalu melebar di layar besar.
 
@@ -139,7 +140,8 @@ Kode di section ini berfungsi untuk menampilkan informasi yang lebih detail tent
 
   > <img width="839" height="91" alt="image" src="https://github.com/user-attachments/assets/151e93f5-8933-4da2-9f9d-be67e5b8ee48" />
   >
-  > Kode ini digunakan untuk membuat judul section dan deskripsi singkat. Saya menggunakan text-center agar teks rata tengah, text-danger untuk warna merah sesuai tema, lalu ada juga untuk warna merah sesuai tema, dan mb-3 dan mb-5 untuk mengatur jarak antar elemen. Saya juga membuat judul berada di tengah supaya terlihat sebagai pembatas antar section.
+  > Kode ini digunakan untuk membuat judul section dan deskripsi singkat. Saya menggunakan text-center agar teks rata tengah, text-danger untuk warna merah sesuai tema website yang saya mau, dan Class fw-bold membuat judul terlihat lebih tegas.
+  > Selain itu, saya menggunakan mb-3 dan mb-5 untuk mengatur jarak antar elemen supaya tampilannya tidak terlalu rapat. Dengan pengaturan ini, judul terlihat lebih menonjol dan berfungsi sebagai pembatas yang jelas antara satu section dengan section lainnya.
 
 Setelah menampilkan judul dan gambaran singkat tentang diri saya, selanjutnya saya membagi Section About menjadi tiga bagian utama. Bagian pertama adalah Deskripsi Diri, lalu Skills, dan terakhir Pengalaman.
 
@@ -176,7 +178,7 @@ c. **Pengalaman**
 ---
 
 
-**📌 Kode Section Certificates**
+### *📌 Kode Section Certificates**
 
 <img width="981" height="839" alt="image" src="https://github.com/user-attachments/assets/76d5b16b-af5f-4b96-896a-dca874134e8a" />
 
