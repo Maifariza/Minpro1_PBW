@@ -80,7 +80,15 @@ Setiap card berisi gambar sertifikat, judul kegiatan, tahun, serta tombol “Lih
 
 **Klik Lihat**
 
+Pada bagian ini tersedia tombol “Lihat” yang dapat digunakan untuk menampilkan sertifikat secara penuh.
+
+
 <img width="364" height="407" alt="image" src="https://github.com/user-attachments/assets/a302b6a0-b1f8-4895-a205-ef3a2ef302dd" />
+
+Jadi nanti gambarnya akan terbuka lebih jelas dan detailnya bisa terbaca dengan nyaman.
+
+<img width="789" height="578" alt="Screenshot 2026-02-23 075344" src="https://github.com/user-attachments/assets/b20e89c4-45c2-46de-8479-bf6077b56d64" />
+
 
 ---
 
@@ -92,14 +100,29 @@ Dalam pembuatan website ini, saya menggunakan beberapa teknologi dasar yang tela
 
 HTML digunakan untuk membuat struktur dasar website. Semua bagian seperti navbar, section Home, About Me, Certificates, dan Footer disusun menggunakan elemen-elemen HTML.
 
+<img width="929" height="631" alt="image" src="https://github.com/user-attachments/assets/a231f780-9ec2-47e6-8c5b-0138f4413c75" />
+
+
 ╰┈➤ **CSS**
 
 CSS digunakan untuk mengatur tampilan website agar lebih rapi dan menarik. Melalui CSS, saya mengatur warna, font, jarak antar elemen, background, serta efek hover pada card dan tombol.
+
+<img width="646" height="926" alt="image" src="https://github.com/user-attachments/assets/a0c6f87e-dbcd-47d4-8722-d0914cbdc24b" />
+
+
 
 ╰┈➤ **Bootstrap 5**
 
 Bootstrap 5 digunakan untuk membantu dalam pengaturan layout dan responsivitas website. Dengan sistem grid seperti container, row, dan col, tampilan website dapat menyesuaikan berbagai ukuran layar. Selain itu, beberapa komponen seperti navbar, card, button, dan progress bar juga menggunakan Bootstrap
 
+<img width="810" height="56" alt="image" src="https://github.com/user-attachments/assets/ab1acbd9-6296-4f55-8323-40acb74edd35" />
+
+
 ╰┈➤ **Vue JS**
 
 Vue JS digunakan pada bagian skills untuk menampilkan data secara lebih terstruktur. Data kemampuan disimpan dalam bentuk array dan ditampilkan menggunakan fitur seperti v-for dan interpolation ({{ }}). Meskipun menggunakan Vue, website ini tetap bersifat statis karena data tidak diambil dari luar.
+
+
+<img width="548" height="372" alt="image" src="https://github.com/user-attachments/assets/447f8e15-0c3f-4c24-becf-70c7f49db803" />
+
+
