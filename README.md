@@ -82,6 +82,10 @@ Setiap card berisi gambar sertifikat, judul kegiatan, tahun, serta tombol “Lih
 
 <Penjelasan:>
 
+Secara umum, pada section Home saya membuat struktur utama menggunakan elemen <section> yang dibagi menjadi dua kolom menggunakan sistem grid Bootstrap. Kolom pertama berisi teks perkenalan seperti nama, role, dan deskripsi singkat. Kolom kedua berisi gambar profil dengan tambahan elemen dekoratif.
+
+Kode pada bagian ini berfungsi untuk menampilkan identitas saya sebagai pembuka website. Saya menggunakan heading untuk struktur teks, button untuk navigasi ke section lain, dan grid Bootstrap untuk memastikan tampilannya tetap responsif di berbagai ukuran layar.
+
 - Kode Struktur Section 
 
   > <img width="343" height="62" alt="image" src="https://github.com/user-attachments/assets/d1b7467e-de73-4ac4-b979-b69a47b7bd90" />
@@ -116,6 +120,12 @@ Setiap card berisi gambar sertifikat, judul kegiatan, tahun, serta tombol “Lih
 <img width="888" height="201" alt="image" src="https://github.com/user-attachments/assets/4b066c5a-c924-4e11-9325-80eba0846e5e" />
 
 <Penjelasan:>
+
+Pada section About, struktur kodenya dibagi menjadi tiga bagian utama dalam satu baris, yaitu Deskripsi, Skills, dan Pengalaman. Saya menggunakan container dan row dari Bootstrap untuk mengatur layout agar rapi dan responsif.
+
+Setiap bagian dibungkus dalam card supaya tampilannya terstruktur dan konsisten. Untuk bagian Skills, saya menggunakan Vue JS agar data skill bisa ditampilkan secara dinamis melalui perulangan.
+
+Kode di section ini berfungsi untuk menampilkan informasi yang lebih detail tentang diri saya, baik dari sisi kepribadian, kemampuan teknis, maupun pengalaman yang pernah saya lakukan.
 
 - Kode Struktur Section About
 
@@ -169,6 +179,12 @@ c. **Pengalaman**
 **📌 Kode Section Certificates**
 
 <img width="981" height="839" alt="image" src="https://github.com/user-attachments/assets/76d5b16b-af5f-4b96-896a-dca874134e8a" />
+
+<Penjelasan:>
+
+Pada section Certificates, saya menggunakan struktur grid Bootstrap untuk menampilkan beberapa card sertifikat dalam bentuk layout yang responsif. Setiap sertifikat dibungkus dalam card yang berisi gambar, judul, tahun, dan tombol untuk melihat detail.
+
+Kode pada bagian ini berfungsi untuk menampilkan bukti pencapaian saya secara visual. Sistem grid memastikan jumlah card dalam satu baris menyesuaikan ukuran layar. Sedangkan tombol “Lihat” memungkinkan pengunjung membuka gambar sertifikat dalam ukuran penuh tanpa meninggalkan halaman utama.
 
 - Kode Struktur Section
 
