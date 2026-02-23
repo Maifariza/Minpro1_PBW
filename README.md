@@ -94,7 +94,7 @@ Jadi nanti gambarnya akan terbuka lebih jelas dan detailnya bisa terbaca dengan 
 
 ### Teknologi yang Digunakan
 
-Dalam pembuatan website ini, saya menggunakan beberapa teknologi dasar yang telah dipelajari, yaitu:
+Dalam pembuatan website ini, saya menggunakan beberapa teknologi dasar yang telah dipelajari, yaitu HTML, CSS, Bootstrap 5, dan juga Vue Js. 
 
 ╰┈➤ **HTML**
 
