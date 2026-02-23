@@ -170,6 +170,45 @@ c. **Pengalaman**
 
 <img width="981" height="839" alt="image" src="https://github.com/user-attachments/assets/76d5b16b-af5f-4b96-896a-dca874134e8a" />
 
+- Kode Struktur Section
+
+  > <img width="609" height="50" alt="image" src="https://github.com/user-attachments/assets/b3b00b94-c316-40a4-a5dc-f74239587f93" />
+  >
+  > Pada bagian ini, saya membuat section menggunakan <section id="certificates". Penggunaan id="certificates" berfungsi agar section ini bisa terhubung langsung dengan tombol navigasi di navbar maupun tombol di Hero menggunakan anchor link.
+  >
+  > Saya juga menambahkan class py-5 untuk memberikan jarak atas dan bawah agar section ini tidak terlalu rapat dengan section lainnya. Selain itu, saya memberikan sedikit background berbeda supaya bagian Certificates terlihat sebagai section yang terpisah.
+
+
+- Kode Grid Layout Sertifikat
+
+  > <img width="358" height="94" alt="image" src="https://github.com/user-attachments/assets/81617d98-de9f-43c3-8497-01f13c8da2e3" />
+  >
+  > Pada bagian ini, saya menggunakan sistem grid dari Bootstrap seperti row, col-md-6, dan col-lg-4 untuk mengatur tata letak card sertifikat. Kode ini berfungsi supaya jumlah card dalam satu baris bisa menyesuaikan dengan ukuran layar.
+  >
+  > Jadi ketika dibuka di layar besar, dalam satu baris bisa tampil tiga card sekaligus. Kalau di layar ukuran medium, tampil dua card. Sedangkan di layar kecil seperti HP, otomatis turun menjadi satu card per baris.
+  >
+  > Nah dengan sistem grid ini, tampilan website tetap responsif tanpa perlu menulis pengaturan layout secara manual. Bootstrap sudah menangani penyesuaian tampilannya secara otomatis sesuai ukuran layar.
+
+- Kode Card Sertifikat
+
+  > <img width="752" height="99" alt="image" src="https://github.com/user-attachments/assets/0284b8ed-48ef-431e-8350-c313fc66cd0d" />
+
+  > Pada bagian ini, saya menggunakan komponen card dari Bootstrap untuk membungkus setiap sertifikat. Kode card ini berfungsi untuk memisahkan setiap sertifikat agar tampil lebih terstruktur dan tidak bercampur satu sama lain.
+  >
+  > Di dalam card terdapat gambar sertifikat, judul kegiatan, dan tahun pelaksanaan. Penggunaan card-img-top berfungsi untuk menampilkan gambar di bagian atas card supaya langsung terlihat. Kemudian bagian card-body digunakan sebagai pembungkus isi teks agar padding dan jaraknya rapi.
+  >
+  > Saya juga menambahkan shadow-sm supaya card memiliki efek bayangan ringan, sehingga tampilannya tidak terlihat datar. Dengan menggunakan card, tampilan sertifikat menjadi lebih profesional dan konsisten dengan bagian lain di website.
+
+- Kode Tombol "Lihat"
+
+  > <img width="355" height="99" alt="image" src="https://github.com/user-attachments/assets/6c7e6ebe-27cc-4383-b044-c98c7706c268" />
+
+
+  > Pada bagian ini, saya menggunakan elemen <a> yang diberi class btn dari Bootstrap untuk dijadikan tombol “Lihat”. Kode ini berfungsi agar pengunjung bisa membuka gambar sertifikat dalam ukuran penuh.
+  >
+  > Saya menambahkan atribut target="_blank" supaya ketika tombol ditekan, gambar akan terbuka di tab baru. Tujuannya agar halaman portfolio utama tidak tertutup atau tergantikan.
+  >
+  > Class seperti btn-outline-danger digunakan untuk menyesuaikan warna tombol dengan tema website, sedangkan btn-sm membuat ukuran tombol lebih proporsional dan tidak terlalu besar di dalam card.
 
 ---
 
