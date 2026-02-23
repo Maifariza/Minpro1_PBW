@@ -70,10 +70,15 @@ Setiap card berisi gambar sertifikat, judul kegiatan, tahun, serta tombol “Lih
 
 <img width="364" height="407" alt="image" src="https://github.com/user-attachments/assets/a302b6a0-b1f8-4895-a205-ef3a2ef302dd" />
 
+---
+
+## Penjelasan Code Setiap Section
+
+
 
 ---
 
-### Teknologi yang Digunakan
+## Teknologi yang Digunakan
 
 Dalam pembuatan website ini, saya menggunakan beberapa teknologi dasar yang telah dipelajari, yaitu HTML, CSS, Bootstrap 5, dan juga Vue Js. 
 
