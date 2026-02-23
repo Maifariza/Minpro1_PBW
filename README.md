@@ -74,6 +74,39 @@ Setiap card berisi gambar sertifikat, judul kegiatan, tahun, serta tombol “Lih
 
 ## Penjelasan Code Setiap Section
 
+**📌 Kode Section Home (Hero Section)**
+
+
+
+<img width="824" height="591" alt="image" src="https://github.com/user-attachments/assets/82a295f8-5680-40cc-8df4-474677adb161" />
+
+
+---
+
+**📌 Kode Section About**
+
+<img width="888" height="201" alt="image" src="https://github.com/user-attachments/assets/4b066c5a-c924-4e11-9325-80eba0846e5e" />
+
+Deskripsi
+
+<img width="1052" height="239" alt="image" src="https://github.com/user-attachments/assets/5ddce4ab-13e8-4cc0-8646-80a5165bfbca" />
+
+Skills
+
+<img width="512" height="369" alt="image" src="https://github.com/user-attachments/assets/d0f4b66a-6a2e-4831-a535-f7ea733e4f18" />
+
+Pengalaman
+
+<img width="754" height="292" alt="image" src="https://github.com/user-attachments/assets/70de077b-b30c-420a-8034-362dc787a36c" />
+
+
+
+---
+
+
+**📌 Kode Section Certificates**
+
+<img width="981" height="839" alt="image" src="https://github.com/user-attachments/assets/76d5b16b-af5f-4b96-896a-dca874134e8a" />
 
 
 ---
