@@ -234,14 +234,20 @@ Dalam pembuatan website ini, saya menggunakan beberapa teknologi dasar yang tela
 - Struktur dasar dokumen
 
   > <img width="618" height="130" alt="image" src="https://github.com/user-attachments/assets/33c5c0c3-c735-4b67-9cf9-14ad57b95d5c" />
+  >
+  > HTML digunakan untuk membentuk struktur dasar sebuah halaman website. Pada bagian ini, elemen seperti <!DOCTYPE html, <html, <head, dan <body berfungsi sebagai kerangka utama. Meta charset digunakan untuk mengatur karakter teks, meta viewport untuk membuat tampilan responsif, dan <title untuk menampilkan judul halaman pada tab browser.
 
 - Pembuatan bagian navigasi
 
   > <img width="370" height="30" alt="image" src="https://github.com/user-attachments/assets/ed098719-0b9c-4c8c-8c5e-90b7294d25b7" />
+  >
+  > HTML digunakan untuk membuat struktur navigasi menggunakan elemen <nav. Bagian ini berfungsi untuk menghubungkan antar section seperti Home, About, dan Certificates. Dengan struktur ini, pengguna dapat berpindah ke bagian lain dalam satu halaman dengan lebih mudah.
 
 - Pembuatan Section
 
   > <img width="245" height="84" alt="image" src="https://github.com/user-attachments/assets/8bf4bb94-975b-4fa3-83bb-71c3a668c228" />
+  >
+  > HTML digunakan untuk membagi konten website menjadi beberapa bagian menggunakan elemen <section. Setiap section diberi id agar dapat terhubung dengan menu navigasi melalui anchor link. Dengan cara ini, struktur website menjadi lebih rapi dan terorganisir.
 
 
 ---
@@ -258,6 +264,8 @@ CSS digunakan untuk mengatur tampilan visual website agar terlihat lebih rapi, m
 
 ╰┈➤ **Bootstrap 5**
 
+<img width="212" height="49" alt="image" src="https://github.com/user-attachments/assets/59449d6c-3957-43da-8212-04b079583e12" />
+
 Bootstrap 5 digunakan dalam website ini untuk membantu pengaturan layout, struktur grid, serta komponen UI agar tampilan menjadi responsif dan lebih rapi tanpa harus menulis semua styling dari nol.
 
 Bootstrap dihubungkan melalui CDN berikut:
@@ -269,19 +277,26 @@ Dengan menghubungkan file tersebut, saya dapat menggunakan berbagai class bawaan
 - Grid System
 
   > <img width="497" height="136" alt="image" src="https://github.com/user-attachments/assets/1a8185fe-9dcf-432d-bee8-c936f21a2747" />
-
+  >
+  > Bootstrap digunakan untuk mengatur tata letak menggunakan sistem grid seperti container, row, dan col-lg-6. Grid system ini berfungsi untuk membagi tampilan menjadi beberapa kolom yang dapat menyesuaikan ukuran layar. Dengan cara ini, layout tetap responsif tanpa perlu membuat media query manual.
 
 - Navbar
 
   > <img width="370" height="59" alt="image" src="https://github.com/user-attachments/assets/d889cb58-35da-4170-a052-625efc55c217" />
+  >
+  > Bootstrap digunakan untuk membuat navigasi menggunakan class seperti navbar, navbar-expand-lg, dan bg-light. Komponen ini berfungsi untuk menampilkan menu navigasi yang responsif dan otomatis menyesuaikan tampilan di berbagai ukuran layar.
 
 - Button
 
   > <img width="376" height="37" alt="image" src="https://github.com/user-attachments/assets/8b5b9a24-4285-4610-a80a-2c2c3cdfcdf5" />
+  >
+  > Bootstrap digunakan untuk membuat tombol dengan class seperti btn, btn-outline-danger, dan btn-sm. Class ini berfungsi untuk memberikan styling tombol secara cepat dan konsisten sesuai tema website.
 
 - Card Component
 
-  <img width="301" height="66" alt="image" src="https://github.com/user-attachments/assets/efce1a8e-fc66-4a00-b6fa-620c6050e350" />
+  > <img width="301" height="66" alt="image" src="https://github.com/user-attachments/assets/efce1a8e-fc66-4a00-b6fa-620c6050e350" />
+  >
+  > Bootstrap digunakan untuk membungkus konten dalam bentuk card menggunakan class seperti card, card-body, dan shadow-sm. Komponen ini berfungsi untuk membuat tampilan konten seperti sertifikat dan deskripsi terlihat lebih terstruktur dan rapi.
 
 
 
@@ -289,13 +304,17 @@ Dengan menghubungkan file tersebut, saya dapat menggunakan berbagai class bawaan
 
 ╰┈➤ **Vue JS**
 
-Vue JS digunakan pada bagian skills untuk menampilkan data secara lebih terstruktur. Data kemampuan disimpan dalam bentuk array dan ditampilkan menggunakan fitur seperti v-for dan interpolation ({{ }}). Meskipun menggunakan Vue, website ini tetap bersifat statis karena data tidak diambil dari luar.
+<img width="172" height="57" alt="image" src="https://github.com/user-attachments/assets/01411d9a-f77e-4f27-a50c-ca708a2fbf29" />
 
-Vue dihubungkan menggunakan CDN:
+Vue JS digunakan pada bagian Skills untuk menampilkan data kemampuan secara lebih terstruktur dan dinamis. Data skill saya simpan dalam bentuk array di dalam instance Vue, lalu ditampilkan menggunakan fitur seperti v-for untuk perulangan dan interpolasi {{ }} untuk menampilkan nilai data ke dalam HTML.
+
+Meskipun menggunakan Vue, website ini tetap bersifat statis karena seluruh data ditulis langsung di dalam file dan tidak mengambil data dari database atau API eksternal.
+
+Vue dihubungkan menggunakan CDN berikut:
 
 <img width="533" height="37" alt="image" src="https://github.com/user-attachments/assets/4a64461a-603f-4f9b-8b42-448eee419059" />
 
-Kemudian dibuat instance Vue sebagai berikut:
+Setelah itu, saya membuat instance Vue dengan createApp() yang berisi data skills. Instance ini kemudian di-mount ke elemen dengan id #app, sehingga seluruh bagian di dalam div tersebut dapat menggunakan fitur Vue.
 
 <img width="548" height="372" alt="image" src="https://github.com/user-attachments/assets/447f8e15-0c3f-4c24-becf-70c7f49db803" />
 
