@@ -12,7 +12,29 @@
 |------------------------------|------------|-------------------|
 | Maifariza Aulia Dyas         | 2409116032 | Sistem Informasi A |
 
-## Deskripsi Section
+## Deskripsi Project
+
+Project ini adalah website portfolio sederhana yang dibuat menggunakan HTML dan CSS. Website ini berisi informasi tentang diri saya, seperti perkenalan singkat, deskripsi diri, daftar kemampuan (skills), pengalaman, dan sertifikat yang pernah saya dapatkan.
+
+Website ini dibagi menjadi beberapa bagian utama, yaitu Home, About Me, dan Certificates. Tampilan dibuat rapi dan responsif dengan bantuan Bootstrap 5 agar nyaman dilihat di berbagai ukuran layar. Pada bagian skills, saya menggunakan Vue JS untuk menampilkan data dengan lebih terstruktur.
+
+## Struktur Project
+
+<img width="235" height="275" alt="Screenshot 2026-02-23 073806" src="https://github.com/user-attachments/assets/caec50cf-7068-4b32-acbd-a1a0f8e561bf" />
+
+Project ini terdiri dari beberapa file dan folder yang memiliki fungsi masing-masing.
+
+- index.html
+
+  File ini merupakan file utama yang berisi struktur dan isi website. Semua bagian seperti Home, About Me, dan Certificates ditulis di dalam file ini.
+
+- style.css
+
+  File ini digunakan untuk mengatur tampilan website, seperti warna, font, jarak antar elemen, background, dan efek hover. Dengan file ini, tampilan website menjadi lebih rapi dan menarik.
+
+- assets/
+
+  Folder ini berisi semua gambar yang digunakan di dalam website, seperti foto profil dan gambar sertifikat. Penyimpanan gambar dalam satu folder membuat project lebih terstruktur dan mudah dikelola.
 
 ### Home (Hero Section)
 
@@ -64,4 +86,8 @@ Klik Lihat
 Footer merupakan bagian paling bawah dari website. Pada bagian ini terdapat informasi singkat berupa nama dan program studi.
 
 <img width="385" height="49" alt="Screenshot 2026-02-23 074617" src="https://github.com/user-attachments/assets/1fb828c0-993d-48ae-8326-52de95353d7d" />
+
+### Teknologi yang Digunakan
+
+Dalam pembuatan website ini, saya menggunakan beberapa teknologi dasar yang telah dipelajari, yaitu:
 
