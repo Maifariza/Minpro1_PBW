@@ -1,4 +1,4 @@
-<h3 align="center">Portofolio Website</h2>
+<h2 align="center">Portofolio Website</h2>
 
 <p align="center"><em>Maifariza Aulia Dyas - Sistem Informasi Universitas Mulawarman.</em></p>
 
