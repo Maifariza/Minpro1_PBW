@@ -151,21 +151,15 @@ a. **Deskripsi**
 >
 > Pada bagian Deskripsi Diri, saya menggunakan struktur card dari Bootstrap untuk membungkus isi teks. Kode ini berfungsi untuk membuat tampilan deskripsi terlihat rapi dan terpisah dari bagian lain.
 >
-> Penggunaan col-md-4 berfungsi agar bagian ini menjadi satu kolom dari tiga kolom dalam satu baris ketika dibuka di layar besar. Sedangkan di layar kecil, otomatis turun ke bawah.
->
-> Elemen <h5 digunakan sebagai judul “Deskripsi Diri”, dan <p digunakan untuk isi penjelasan. Jadi secara fungsi, kode ini menampilkan informasi tentang diri saya dalam bentuk yang terstruktur dan mudah dibaca.
+> Penggunaan col-md-4 berfungsi agar bagian ini menjadi satu kolom dari tiga kolom dalam satu baris ketika dibuka di layar besar. Sedangkan di layar kecil, otomatis turun ke bawah. Elemen <h5 digunakan sebagai judul “Deskripsi Diri”, dan <p digunakan untuk isi penjelasan. Jadi secara fungsi, kode ini menampilkan informasi tentang diri saya dalam bentuk yang terstruktur dan mudah dibaca.
 
 b. **Skills**
 
 > <img width="512" height="369" alt="image" src="https://github.com/user-attachments/assets/d0f4b66a-6a2e-4831-a535-f7ea733e4f18" />
 >
-> Pada bagian Skills, kode berfungsi untuk menampilkan daftar kemampuan beserta levelnya dalam bentuk progress bar.
+> Pada bagian Skills, kode berfungsi untuk menampilkan daftar kemampuan beserta levelnya dalam bentuk progress bar. Saya menggunakan v-for untuk melakukan perulangan data skills, sehingga setiap skill di dalam array otomatis ditampilkan tanpa harus menulis ulang struktur HTML. Artinya, kalau saya menambahkan skill baru di data Vue, maka otomatis akan muncul di tampilan.
 >
-> Saya menggunakan v-for untuk melakukan perulangan data skills, sehingga setiap skill di dalam array otomatis ditampilkan tanpa harus menulis ulang struktur HTML. Artinya, kalau saya menambahkan skill baru di data Vue, maka otomatis akan muncul di tampilan.
->
-> Progress bar Bootstrap digunakan untuk menampilkan visual tingkat kemampuan. Lebarnya diatur menggunakan binding :style yang mengambil nilai dari skill.level. Jadi fungsi kodenya adalah menghubungkan data dengan tampilan secara dinamis.
->
-> Bagian ini membuat daftar skill menjadi lebih visual dan tidak hanya berupa teks biasa.
+> Progress bar Bootstrap digunakan untuk menampilkan visual tingkat kemampuan. Lebarnya diatur menggunakan binding :style yang mengambil nilai dari skill.level. Jadi fungsi kodenya adalah menghubungkan data dengan tampilan secara dinamis. Bagian ini membuat daftar skill menjadi lebih visual dan tidak hanya berupa teks biasa.
 
 c. **Pengalaman**
 
@@ -178,7 +172,7 @@ c. **Pengalaman**
 ---
 
 
-### *📌 Kode Section Certificates**
+### **📌 Kode Section Certificates**
 
 <img width="981" height="839" alt="image" src="https://github.com/user-attachments/assets/76d5b16b-af5f-4b96-896a-dca874134e8a" />
 
@@ -202,10 +196,9 @@ Kode pada bagian ini berfungsi untuk menampilkan bukti pencapaian saya secara vi
   > <img width="358" height="94" alt="image" src="https://github.com/user-attachments/assets/81617d98-de9f-43c3-8497-01f13c8da2e3" />
   >
   > Pada bagian ini, saya menggunakan sistem grid dari Bootstrap seperti row, col-md-6, dan col-lg-4 untuk mengatur tata letak card sertifikat. Kode ini berfungsi supaya jumlah card dalam satu baris bisa menyesuaikan dengan ukuran layar.
-  >
   > Jadi ketika dibuka di layar besar, dalam satu baris bisa tampil tiga card sekaligus. Kalau di layar ukuran medium, tampil dua card. Sedangkan di layar kecil seperti HP, otomatis turun menjadi satu card per baris.
   >
-  > Nah dengan sistem grid ini, tampilan website tetap responsif tanpa perlu menulis pengaturan layout secara manual. Bootstrap sudah menangani penyesuaian tampilannya secara otomatis sesuai ukuran layar.
+  > Nah dengan sistem grid ini, tampilan website tetap responsif tanpa perlu menulis pengaturan layout secara manual lagi. Bootstrap sudah menangani penyesuaian tampilannya secara otomatis sesuai ukuran layar.
 
 - Kode Card Sertifikat
 
@@ -215,18 +208,16 @@ Kode pada bagian ini berfungsi untuk menampilkan bukti pencapaian saya secara vi
   >
   > Di dalam card terdapat gambar sertifikat, judul kegiatan, dan tahun pelaksanaan. Penggunaan card-img-top berfungsi untuk menampilkan gambar di bagian atas card supaya langsung terlihat. Kemudian bagian card-body digunakan sebagai pembungkus isi teks agar padding dan jaraknya rapi.
   >
-  > Saya juga menambahkan shadow-sm supaya card memiliki efek bayangan ringan, sehingga tampilannya tidak terlihat datar. Dengan menggunakan card, tampilan sertifikat menjadi lebih profesional dan konsisten dengan bagian lain di website.
+  > Saya juga menambahkan shadow-sm supaya card memiliki efek bayangan ringan, sehingga tampilannya tidak terlihat datar banget. Dengan menggunakan card ini, tampilan sertifikat menjadi lebih profesional dan konsisten dengan bagian lain di website.
 
 - Kode Tombol "Lihat"
 
   > <img width="355" height="99" alt="image" src="https://github.com/user-attachments/assets/6c7e6ebe-27cc-4383-b044-c98c7706c268" />
 
 
-  > Pada bagian ini, saya menggunakan elemen <a> yang diberi class btn dari Bootstrap untuk dijadikan tombol “Lihat”. Kode ini berfungsi agar pengunjung bisa membuka gambar sertifikat dalam ukuran penuh.
+  > Pada bagian ini, saya menggunakan elemen <a yang diberi class btn dari Bootstrap untuk dijadikan tombol “Lihat”. Kode ini berfungsi agar pengunjung bisa membuka gambar sertifikat dengan ukuran yang full atau penuh.
   >
-  > Saya menambahkan atribut target="_blank" supaya ketika tombol ditekan, gambar akan terbuka di tab baru. Tujuannya agar halaman portfolio utama tidak tertutup atau tergantikan.
-  >
-  > Class seperti btn-outline-danger digunakan untuk menyesuaikan warna tombol dengan tema website, sedangkan btn-sm membuat ukuran tombol lebih proporsional dan tidak terlalu besar di dalam card.
+  > Saya menambahkan atribut target="_blank" supaya ketika tombol ditekan, gambar akan terbuka di tab baru. Tujuannya agar halaman portfolio utama tidak tertutup atau tergantikan. Selain itu, Class seperti btn-outline-danger ini saya gunakan untuk menyesuaikan warna tombol dengan tema website, sedangkan btn-sm membuat ukuran tombol lebih proporsional dan tidak terlalu besar di dalam card.
 
 ---
 
