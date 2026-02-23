@@ -98,12 +98,18 @@ Dalam pembuatan website ini, saya menggunakan beberapa teknologi dasar yang tela
 
 ╰┈➤ **HTML**
 
+<img width="117" height="35" alt="image" src="https://github.com/user-attachments/assets/4c8a7f75-8e10-47e7-a4ac-8c0df48dd04c" />
+
+
 HTML digunakan untuk membuat struktur dasar website. Semua bagian seperti navbar, section Home, About Me, Certificates, dan Footer disusun menggunakan elemen-elemen HTML.
 
 <img width="929" height="631" alt="image" src="https://github.com/user-attachments/assets/a231f780-9ec2-47e6-8c5b-0138f4413c75" />
 
 
 ╰┈➤ **CSS**
+
+<img width="116" height="35" alt="image" src="https://github.com/user-attachments/assets/ec84e5ed-bc93-4ecb-a7ef-39c0e6d11aed" />
+
 
 CSS digunakan untuk mengatur tampilan website agar lebih rapi dan menarik. Melalui CSS, saya mengatur warna, font, jarak antar elemen, background, serta efek hover pada card dan tombol.
 
