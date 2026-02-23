@@ -53,9 +53,15 @@ Setiap card berisi gambar sertifikat, judul kegiatan, tahun, serta tombol “Lih
 
 <img width="1880" height="944" alt="Screenshot 2026-02-23 074546" src="https://github.com/user-attachments/assets/d59b9380-8576-409b-afe5-ca641c32d6d3" />
 
+Klik Lihat
 
-#### Footer
+<img width="364" height="407" alt="image" src="https://github.com/user-attachments/assets/a302b6a0-b1f8-4895-a205-ef3a2ef302dd" />
+
+
+
+### Footer
 
 Footer merupakan bagian paling bawah dari website. Pada bagian ini terdapat informasi singkat berupa nama dan program studi.
 
 <img width="385" height="49" alt="Screenshot 2026-02-23 074617" src="https://github.com/user-attachments/assets/1fb828c0-993d-48ae-8326-52de95353d7d" />
+
