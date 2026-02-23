@@ -80,6 +80,34 @@ Setiap card berisi gambar sertifikat, judul kegiatan, tahun, serta tombol “Lih
 
 <img width="824" height="591" alt="image" src="https://github.com/user-attachments/assets/82a295f8-5680-40cc-8df4-474677adb161" />
 
+<Penjelasan:>
+
+- Kode Struktur Section 
+
+  > <img width="343" height="62" alt="image" src="https://github.com/user-attachments/assets/d1b7467e-de73-4ac4-b979-b69a47b7bd90" />
+  >
+  > Pada bagian Hero, saya membuat struktur utama menggunakan section id="home">. Saya pakai id="home" supaya bisa terhubung langsung dengan navbar. Jadi ketika tombol “Home” ditekan, halaman otomatis scroll ke bagian ini tanpa reload.
+
+- Kode Grid Layout 
+
+  > <img width="345" height="43" alt="image" src="https://github.com/user-attachments/assets/a6b95394-66c6-4cdf-bf79-b60e8bbc1261" />
+  >
+  > Saya sengaja pakai sistem grid Bootstrap supaya layout-nya responsif. Jadi di layar besar tampil dua kolom (teks dan gambar berdampingan), tapi kalau di layar kecil otomatis turun jadi satu kolom. Dengan cara ini, saya tidak perlu menulis media query manual.
+
+- Kode Heading 
+
+  > <img width="490" height="32" alt="image" src="https://github.com/user-attachments/assets/7c0000ac-e285-48e0-af52-48de68c3d2ff" />
+  >
+  > Saya menggunakan button class bt dari Bootstrap untuk styling dasar, lalu saya kombinasikan dengan CSS sendiri agar warnanya sesuai tema pink yang saya gunakan.
+
+- Kode Button 
+
+  > <img width="345" height="47" alt="image" src="https://github.com/user-attachments/assets/cbb2c81c-21a3-48e8-9cd7-15606f1dd291" />
+  >
+  > Untuk gambar, saya menggunakan kode diatas. Lingkaran itu saya buat di CSS menggunakan position: absolute agar terlihat seperti background dekoratif.
+  > Kemudian saya tambahkan efek mask gradient di .hero-img supaya bagian bawah foto terlihat lebih halus dan menyatu dengan background.
+
+
 
 ---
 
