@@ -105,6 +105,7 @@ HTML digunakan untuk membuat struktur dasar website. Semua bagian seperti navbar
 
 <img width="929" height="631" alt="image" src="https://github.com/user-attachments/assets/a231f780-9ec2-47e6-8c5b-0138f4413c75" />
 
+---
 
 ╰┈➤ **CSS**
 
@@ -115,7 +116,7 @@ CSS digunakan untuk mengatur tampilan website agar lebih rapi dan menarik. Melal
 
 <img width="646" height="926" alt="image" src="https://github.com/user-attachments/assets/a0c6f87e-dbcd-47d4-8722-d0914cbdc24b" />
 
-
+---
 
 ╰┈➤ **Bootstrap 5**
 
@@ -123,6 +124,7 @@ Bootstrap 5 digunakan untuk membantu dalam pengaturan layout dan responsivitas w
 
 <img width="810" height="56" alt="image" src="https://github.com/user-attachments/assets/ab1acbd9-6296-4f55-8323-40acb74edd35" />
 
+---
 
 ╰┈➤ **Vue JS**
 
