@@ -100,10 +100,20 @@ Dalam pembuatan website ini, saya menggunakan beberapa teknologi dasar yang tela
 
 <img width="117" height="35" alt="image" src="https://github.com/user-attachments/assets/4c8a7f75-8e10-47e7-a4ac-8c0df48dd04c" />
 
+**HTML** digunakan sebagai struktur dasar dalam membangun website ini. Semua bagian utama seperti navbar, section Home, About Me, hingga Certificates disusun menggunakan elemen-elemen HTML agar konten tersusun dengan rapi dan terstruktur.
 
-HTML digunakan untuk membuat struktur dasar website. Semua bagian seperti navbar, section Home, About Me, Certificates, dan Footer disusun menggunakan elemen-elemen HTML.
+- Struktur dasar dokumen
 
-<img width="929" height="631" alt="image" src="https://github.com/user-attachments/assets/a231f780-9ec2-47e6-8c5b-0138f4413c75" />
+  > <img width="618" height="130" alt="image" src="https://github.com/user-attachments/assets/33c5c0c3-c735-4b67-9cf9-14ad57b95d5c" />
+
+- Pembuatan bagian navigasi
+
+  > <img width="370" height="30" alt="image" src="https://github.com/user-attachments/assets/ed098719-0b9c-4c8c-8c5e-90b7294d25b7" />
+
+- Pembuatan Section
+
+  > <img width="245" height="84" alt="image" src="https://github.com/user-attachments/assets/8bf4bb94-975b-4fa3-83bb-71c3a668c228" />
+
 
 ---
 
@@ -111,8 +121,7 @@ HTML digunakan untuk membuat struktur dasar website. Semua bagian seperti navbar
 
 <img width="116" height="35" alt="image" src="https://github.com/user-attachments/assets/ec84e5ed-bc93-4ecb-a7ef-39c0e6d11aed" />
 
-
-CSS digunakan untuk mengatur tampilan website agar lebih rapi dan menarik. Melalui CSS, saya mengatur warna, font, jarak antar elemen, background, serta efek hover pada card dan tombol.
+CSS digunakan untuk mengatur tampilan visual website agar terlihat lebih rapi, menarik, dan memiliki identitas desain yang konsisten. Jika HTML berfungsi sebagai struktur, maka CSS berperan dalam mempercantik dan mengatur bagaimana struktur tersebut ditampilkan di layar.
 
 <img width="646" height="926" alt="image" src="https://github.com/user-attachments/assets/a0c6f87e-dbcd-47d4-8722-d0914cbdc24b" />
 
@@ -120,9 +129,32 @@ CSS digunakan untuk mengatur tampilan website agar lebih rapi dan menarik. Melal
 
 ╰┈➤ **Bootstrap 5**
 
-Bootstrap 5 digunakan untuk membantu dalam pengaturan layout dan responsivitas website. Dengan sistem grid seperti container, row, dan col, tampilan website dapat menyesuaikan berbagai ukuran layar. Selain itu, beberapa komponen seperti navbar, card, button, dan progress bar juga menggunakan Bootstrap
+Bootstrap 5 digunakan dalam website ini untuk membantu pengaturan layout, struktur grid, serta komponen UI agar tampilan menjadi responsif dan lebih rapi tanpa harus menulis semua styling dari nol.
+
+Bootstrap dihubungkan melalui CDN berikut:
 
 <img width="810" height="56" alt="image" src="https://github.com/user-attachments/assets/ab1acbd9-6296-4f55-8323-40acb74edd35" />
+
+Dengan menghubungkan file tersebut, saya dapat menggunakan berbagai class bawaan Bootstrap untuk mempercepat proses pembuatan tampilan.
+
+- Grid System
+
+  > <img width="497" height="136" alt="image" src="https://github.com/user-attachments/assets/1a8185fe-9dcf-432d-bee8-c936f21a2747" />
+
+
+- Navbar
+
+  > <img width="370" height="59" alt="image" src="https://github.com/user-attachments/assets/d889cb58-35da-4170-a052-625efc55c217" />
+
+- Button
+
+  > <img width="376" height="37" alt="image" src="https://github.com/user-attachments/assets/8b5b9a24-4285-4610-a80a-2c2c3cdfcdf5" />
+
+- Card Component
+
+  <img width="301" height="66" alt="image" src="https://github.com/user-attachments/assets/efce1a8e-fc66-4a00-b6fa-620c6050e350" />
+
+
 
 ---
 
@@ -130,6 +162,11 @@ Bootstrap 5 digunakan untuk membantu dalam pengaturan layout dan responsivitas w
 
 Vue JS digunakan pada bagian skills untuk menampilkan data secara lebih terstruktur. Data kemampuan disimpan dalam bentuk array dan ditampilkan menggunakan fitur seperti v-for dan interpolation ({{ }}). Meskipun menggunakan Vue, website ini tetap bersifat statis karena data tidak diambil dari luar.
 
+Vue dihubungkan menggunakan CDN:
+
+<img width="533" height="37" alt="image" src="https://github.com/user-attachments/assets/4a64461a-603f-4f9b-8b42-448eee419059" />
+
+Kemudian dibuat instance Vue sebagai berikut:
 
 <img width="548" height="372" alt="image" src="https://github.com/user-attachments/assets/447f8e15-0c3f-4c24-becf-70c7f49db803" />
 
