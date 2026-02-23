@@ -115,17 +115,51 @@ Setiap card berisi gambar sertifikat, judul kegiatan, tahun, serta tombol “Lih
 
 <img width="888" height="201" alt="image" src="https://github.com/user-attachments/assets/4b066c5a-c924-4e11-9325-80eba0846e5e" />
 
-Deskripsi
+<Penjelasan:>
 
-<img width="1052" height="239" alt="image" src="https://github.com/user-attachments/assets/5ddce4ab-13e8-4cc0-8646-80a5165bfbca" />
+- Kode Struktur Section About
 
-Skills
+  > <img width="268" height="45" alt="image" src="https://github.com/user-attachments/assets/f10c530e-2d20-405c-811f-01b6866d080a" />
+  >
+  > Pada bagian ini, saya membuat section About menggunakan <section id="about". Saya memberikan id="about" supaya bisa terhubung langsung dengan tombol “About Me” di Hero dan juga dari navbar.
+  > Class py-5 berasal dari Bootstrap yang berfungsi memberikan padding atas dan bawah agar section ini tidak terlalu rapat dengan section sebelumnya.
+  > Saya juga menggunakan container agar isi kontennya tetap berada dalam batas lebar yang rapi dan tidak terlalu melebar di layar besar.
 
-<img width="512" height="369" alt="image" src="https://github.com/user-attachments/assets/d0f4b66a-6a2e-4831-a535-f7ea733e4f18" />
+- Kode Judul dan Deskripsi Singkat Section
 
-Pengalaman
+  > <img width="839" height="91" alt="image" src="https://github.com/user-attachments/assets/151e93f5-8933-4da2-9f9d-be67e5b8ee48" />
+  >
+  > Kode ini digunakan untuk membuat judul section dan deskripsi singkat. Saya menggunakan text-center agar teks rata tengah, text-danger untuk warna merah sesuai tema, lalu ada juga untuk warna merah sesuai tema, dan mb-3 dan mb-5 untuk mengatur jarak antar elemen. Saya juga membuat judul berada di tengah supaya terlihat sebagai pembatas antar section.
 
-<img width="754" height="292" alt="image" src="https://github.com/user-attachments/assets/70de077b-b30c-420a-8034-362dc787a36c" />
+Setelah menampilkan judul dan gambaran singkat tentang diri saya, selanjutnya saya membagi Section About menjadi tiga bagian utama. Bagian pertama adalah Deskripsi Diri, lalu Skills, dan terakhir Pengalaman.
+
+a. **Deskripsi**
+
+> <img width="1052" height="239" alt="image" src="https://github.com/user-attachments/assets/5ddce4ab-13e8-4cc0-8646-80a5165bfbca" />
+>
+> Pada bagian Deskripsi Diri, saya menggunakan struktur card dari Bootstrap untuk membungkus isi teks. Kode ini berfungsi untuk membuat tampilan deskripsi terlihat rapi dan terpisah dari bagian lain.
+>
+> Penggunaan col-md-4 berfungsi agar bagian ini menjadi satu kolom dari tiga kolom dalam satu baris ketika dibuka di layar besar. Sedangkan di layar kecil, otomatis turun ke bawah.
+>
+> Elemen <h5 digunakan sebagai judul “Deskripsi Diri”, dan <p digunakan untuk isi penjelasan. Jadi secara fungsi, kode ini menampilkan informasi tentang diri saya dalam bentuk yang terstruktur dan mudah dibaca.
+
+b. **Skills**
+
+> <img width="512" height="369" alt="image" src="https://github.com/user-attachments/assets/d0f4b66a-6a2e-4831-a535-f7ea733e4f18" />
+>
+> Pada bagian Skills, kode berfungsi untuk menampilkan daftar kemampuan beserta levelnya dalam bentuk progress bar.
+>
+> Saya menggunakan v-for untuk melakukan perulangan data skills, sehingga setiap skill di dalam array otomatis ditampilkan tanpa harus menulis ulang struktur HTML. Artinya, kalau saya menambahkan skill baru di data Vue, maka otomatis akan muncul di tampilan.
+>
+> Progress bar Bootstrap digunakan untuk menampilkan visual tingkat kemampuan. Lebarnya diatur menggunakan binding :style yang mengambil nilai dari skill.level. Jadi fungsi kodenya adalah menghubungkan data dengan tampilan secara dinamis.
+>
+> Bagian ini membuat daftar skill menjadi lebih visual dan tidak hanya berupa teks biasa.
+
+c. **Pengalaman**
+
+> <img width="754" height="292" alt="image" src="https://github.com/user-attachments/assets/70de077b-b30c-420a-8034-362dc787a36c" />
+>
+> Pada bagian Pengalaman, saya menggunakan struktur list <ul dan <li untuk menampilkan daftar kegiatan. Kegunaan kode ini adalah untuk menyusun pengalaman dalam bentuk poin-poin agar lebih ringkas dan mudah dibaca. Struktur list juga lebih tepat secara HTML dibanding menuliskannya dalam satu paragraf panjang. Card Bootstrap tetap digunakan supaya tampilannya konsisten dengan bagian Deskripsi dan Skills.
 
 
 
