@@ -38,7 +38,7 @@ Project ini terdiri dari beberapa file dan folder yang memiliki fungsi masing-ma
 
 ## Tampilan Website (Full)
 
-<img width="810" height="1600" alt="image" src="https://github.com/user-attachments/assets/db4bebba-968f-440d-b6ce-232196059d10" />
+> <img width="810" height="1600" alt="image" src="https://github.com/user-attachments/assets/db4bebba-968f-440d-b6ce-232196059d10" />
 
 
 ---
@@ -124,9 +124,7 @@ Kode di section Home ini berfungsi untuk menampilkan identitas saya sebagai pemb
 
 <Penjelasan:>
 
-Pada section About, struktur kodenya dibagi menjadi tiga bagian utama dalam satu baris, yaitu Deskripsi, Skills, dan Pengalaman. Saya menggunakan container dan row dari Bootstrap untuk mengatur layout agar rapi dan responsif.
-
-Setiap bagian dibungkus dalam card supaya tampilannya terstruktur dan konsisten. Untuk bagian Skills, saya menggunakan Vue JS agar data skill ini bisa ditampilkan secara dinamis melalui perulangan.
+Pada section About, struktur kodenya dibagi menjadi tiga bagian utama dalam satu baris, yaitu Deskripsi, Skills, dan Pengalaman. Saya menggunakan container dan row dari Bootstrap untuk mengatur layout agar rapi dan responsif. Setiap bagian dibungkus dalam card supaya tampilannya terstruktur dan konsisten. Untuk bagian Skills, saya menggunakan Vue JS agar data skill ini bisa ditampilkan secara dinamis melalui perulangan.
 
 Kode di section ini berfungsi untuk menampilkan informasi yang lebih detail tentang diri saya, baik dari sisi kepribadian, kemampuan teknis, maupun pengalaman yang pernah saya lakukan.
 
@@ -180,17 +178,15 @@ c. **Pengalaman**
 
 <Penjelasan:>
 
-Pada section Certificates, saya menggunakan struktur grid Bootstrap untuk menampilkan beberapa card sertifikat dalam bentuk layout yang responsif. Setiap sertifikat dibungkus dalam card yang berisi gambar, judul, tahun, dan tombol untuk melihat detail.
+Pada section Certificates, saya menggunakan struktur grid Bootstrap untuk menampilkan beberapa card sertifikat dalam bentuk layout. Setiap sertifikat dibungkus dalam card yang berisi gambar, judul, tahun, dan tombol untuk melihat detail.
 
-Kode pada bagian ini berfungsi untuk menampilkan bukti pencapaian saya secara visual. Sistem grid memastikan jumlah card dalam satu baris menyesuaikan ukuran layar. Sedangkan tombol “Lihat” memungkinkan pengunjung membuka gambar sertifikat dalam ukuran penuh tanpa meninggalkan halaman utama.
+Kode pada bagian ini berfungsi untuk menampilkan bukti bagaimana pencapaian saya secara visual. Sistem grid memastikan jumlah card dalam satu baris menyesuaikan ukuran layar. Sedangkan tombol “Lihat” memungkinkan pengunjung membuka gambar sertifikat dalam ukuran penuh tanpa meninggalkan halaman utama.
 
 - Kode Struktur Section
 
   > <img width="609" height="50" alt="image" src="https://github.com/user-attachments/assets/b3b00b94-c316-40a4-a5dc-f74239587f93" />
   >
-  > Pada bagian ini, saya membuat section menggunakan <section id="certificates". Penggunaan id="certificates" berfungsi agar section ini bisa terhubung langsung dengan tombol navigasi di navbar maupun tombol di Hero menggunakan anchor link.
-  >
-  > Saya juga menambahkan class py-5 untuk memberikan jarak atas dan bawah agar section ini tidak terlalu rapat dengan section lainnya. Selain itu, saya memberikan sedikit background berbeda supaya bagian Certificates terlihat sebagai section yang terpisah.
+  > Pada bagian ini, saya membuat section menggunakan <section id="certificates". Penggunaan id="certificates" berfungsi agar section ini bisa terhubung langsung dengan tombol navigasi di navbar maupun tombol di Hero menggunakan anchor link. Saya juga menambahkan class py-5 untuk memberikan jarak atas dan bawah agar section ini tidak terlalu rapat dengan section lainnya. Selain itu, saya memberikan sedikit background berbeda supaya bagian Certificates terlihat sebagai section yang terpisah.
 
 
 - Kode Grid Layout Sertifikat
