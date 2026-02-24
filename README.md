@@ -38,6 +38,8 @@ Project ini terdiri dari beberapa file dan folder yang memiliki fungsi masing-ma
 
 ## Tampilan Website (Full)
 
+<img width="810" height="1600" alt="image" src="https://github.com/user-attachments/assets/db4bebba-968f-440d-b6ce-232196059d10" />
+
 
 ---
 
